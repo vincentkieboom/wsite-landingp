@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Lambda</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+                
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/magnific-popup.css" rel="stylesheet">
+
+        <link href="css/tooplate-tween-agency.css" rel="stylesheet">
+
+<!--
+
+Tooplate 2128 Tween Agency
+
+https://www.tooplate.com/view/2128-tween-agency
+
+-->
+
+    </head>
+    
+    <body>
+
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container">
+
+                <a href="index.html" class="navbar-brand">
+                    <i class="bi-layers"></i> Lambda
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-5">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#solutions">Solutions</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+
+            <section class="hero d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12">
+                            <div class="heroText">
+                                <h1 id="text" class="text-white mb-lg-5 mb-4"></h1>
+                                <script>
+                                    const oneliners = [
+                                      "Let your data work \n for you",
+                                      "Put your data \n to work"
+                                    ];
+                              
+                                    const randomIndex = Math.floor(Math.random() * oneliners.length);
+                                    const textElement = document.getElementById("text");
+                                    const oneliner = oneliners[randomIndex];
+                                    let index = 0;
+                              
+                                    function typeText() {
+                                      if (index < oneliner.length) {
+                                        textElement.innerHTML += oneliner.charAt(index);
+                                        index++;
+                                        setTimeout(typeText, 25); // adjust the typing speed here
+                                      }
+                                    }
+                              
+                                    typeText();
+                                  </script>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="overlay dark-overlay"></div>
+            </section>
+            
+            <!-- About-->
+            <section class="about section-padding" id="about">
+                <div class="container">
+                    <div class="row">
+                                        <div class="col-lg-6 col-12 mb-lg-0 mb-4">
+                                            <img src="images/slide/break.jpg" class="img-fluid" alt="example">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12 m-auto">
+                                            <h3 class="glitch">We are Lambda,</h3>
+
+                                            <p>With a team of experienced data scientists, engineers, and business strategists, Lambda empowers organizations to harness the power of data and artificial intelligence to make better decisions, optimize processes, and unlock new opportunities.</p>
+
+                                            <p>Our solutions are customized to meet the unique needs of each client, whether they need to build a data-driven culture, automate routine tasks, or develop predictive models that can drive growth.</p>
+                                            
+                                            <p>At Lambda, we are passionate about transforming the way businesses operate in a data-driven world, and we are committed to delivering measurable results that drive success.</p>
+                                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Solutions-->
+            <section class="services section-padding" id="solutions">
+                <div class="container">
+                    <div class="row">
+
+                        <h2 class="mb-5 text-center">Our Solutions</h2>
+
+                        <div class="container my-5">
+                                <div class="row">
+                                    <div class="col-md-4 my-4">
+                                        <a href="www.google.nl">
+                                        <div class="px-3 py-5 text-white" style="background-color: #F7CD46; transition: 0.3s ease">
+                                            <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3">
+                                                 <img src="./images/services/intelligence.svg" alt="example" height="60px" width="60px">
+                                            </div>
+                                            <div class="px-3 text-center pb-3">
+                                                <h5 class="text-uppercase animated-heading" style="font-weight: 600">AI SOLUTIONS</h5>
+                                                <p class="font-weight-light my-3">We offer a wide range of AI solutions to help your business reach new levels of efficiency and performance. 
+                                                    Our team of experts will work with you to understand your needs and develop a tailored solution to meet your goals.</p>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 my-4">
+                                        <a href="www.google.nl">
+                                        <div class="px-3 py-5 text-white" style="background-color: #5AC3B0; transition: 0.3s ease">
+                                            <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3">
+                                                 <img src="./images/services/layers2.svg" alt="example" height="60px" width="60px">
+                                            </div>
+                                            <div class="px-3 text-center pb-3">
+                                                <h5 class="text-uppercase animated-heading" style="font-weight: 600">Data & Analytics Platform</h5>
+                                                <p class="font-weight-light my-3">Our state-of-the-art data and analytics platform helps you collect, process, and visualize your data in real-time. 
+                                                    From business intelligence to predictive analytics, we have the tools you need to make data-driven decisions.</p>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 my-4">
+                                        <a href="www.google.nl">
+                                            <div class="px-3 py-5 text-white" style="background-color: #DE5935; transition: 0.3s ease">
+                                                <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3">
+                                                     <img src="./images/services/muscle.svg" height="60px" width="60px" alt="example">
+                                                </div>
+                                                <div class="px-3 text-center pb-3">
+                                                    <h5 class="text-uppercase animated-heading" style="font-weight: 600">Consulting</h5>
+                                                    <p class="font-weight-light my-3">We provide expert consulting services to help you navigate the complex world of AI and data. 
+                                                        Our team of experts can help you understand your options, choose the right tools and technologies, and get the most out of your data and AI initiatives.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tech-->
+            <section class="technologies2">
+                <div class="py-5">
+                    <div class="container">
+                        <div class="col-12">
+                            <h2 class="mb-5 text-center" style="color: black;">Powered by</h2>
+                        </div>
+                        <div class="row align-items-center">
+                                            <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                                                 style="width: 60px;height: 60px;">
+                                                 <img class="tech" src="./images/tech/azure.png" alt="example" >
+                                            </div>
+                                            <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                                                 style="width: 60px;height: 60px;">
+                                                 <img class="tech" src="./images/tech/Databricks.png" alt="example" >
+                                            </div>
+                                                <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                                                     style="width: 60px;height: 60px;">
+                                                     <img class="tech" src="./images/tech/openai.png" alt="example" >
+                                                </div>
+                                            <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                                                style="width: 60px;height: 60px;">
+                                                <img class="tech" src="./images/tech/TensorFlow.png" alt="example" >
+                                            </div>
+                                            <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                                                 style="width: 60px;height: 60px;">
+                                                 <img class="tech" src="./images/tech/python.png" alt="example" >
+                                            </div>
+                                            <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                                                 style="width: 60px;height: 60px;">
+                                                 <img class="tech" src="./images/tech/delta-lake.png" alt="example" >
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+            </section>
+
+            <!-- Use cases: here are some examples with what we can help you with (see chat gpt for examples and check here for an example of how it could look:
+                https://www.bcg.com/capabilities/digital-technology-data/artificial-intelligence)-->
+            <section style="background-color: #202730; height: 100vh;">
+                <div class="py-5">
+                <div class="container">
+                    
+                        <div class="col-12">
+                            <h2 class="mb-5 text-center" style="color: black;">Use cases</h2>
+                        </div>
+                        
+                        <div class="carousel">
+                            
+                            <div class="carousel--item">
+                                <div class="card">
+                                  <img src="images/usecases/maintenance.jpg" alt="Jane" style="width:100%; height: 200px; object-fit: cover;">
+                                  <div class="container">
+                                    <h5>Predictive Maintenance</h5>
+                                    <p>A data and AI platform can be utilized to implement predictive maintenance strategies. By collecting and analyzing real-time sensor data from machines or equipment, the platform can identify patterns and anomalies to predict potential failures. This enables proactive maintenance, reducing downtime and improving operational efficiency.</p>
+                                  </div>
+                                </div>
+                          </div>
+                            
+                          <div class="carousel--item">
+                                <div class="card">
+                                  <img src="images/usecases/fraud.jpg" alt="Jane" style="width:100%; height: 200px; object-fit: cover;">
+                                  <div class="container">
+                                    <h5>FRAUD DETECTION</h5>
+                                    <p>A data and AI platform can be utilized to implement predictive maintenance strategies. By collecting and analyzing real-time sensor data from machines or equipment, the platform can identify patterns and anomalies to predict potential failures. This enables proactive maintenance, reducing downtime and improving operational efficiency.</p>
+                                  </div>
+                                </div>
+                          </div>
+
+
+                          <div class="carousel--item">
+                                <div class="card">
+                                  <img src="images/usecases/sentiment.jpg" alt="Jane" style="width:100%; height: 200px; object-fit: cover;">
+                                  <div class="container">
+                                    <h5>Sentiment analysis</h5>
+                                    <p>A data and AI platform can be utilized to implement predictive maintenance strategies.</p>
+                                    <p>example@example.com</p>
+                                    <p><button class="button">Contact</button></p>
+                                  </div>
+                                </div>
+                          </div>
+
+                          <div class="carousel--item">
+                                <div class="card">
+                                  <img src="images/usecases/marketing.jpg" alt="Jane" style="width:100%; height: 200px; object-fit: cover;">
+                                  <div class="container">
+                                    <h5>Customer satisfaction</h5>
+                                    <p>A data and AI platform can be utilized to implement predictive maintenance strategies. By collecting and analyzing real-time sensor data from machines or equipment, the platform can identify patterns and anomalies to predict potential failures. This enables proactive maintenance, reducing downtime and improving operational efficiency.</p>
+                                  </div>
+                                </div>
+                          </div>
+
+                          <div class="carousel--item">
+                                <div class="card" style="background-color: #DE5935;">
+                                  <img src="images/slide/break.jpg" alt="Jane" style="width:100%; height: 200px; object-fit: cover;">
+                                  <div class="container">
+                                    <h5>Predictive Maintenance</h5>
+                                    <p>A data and AI platform can be utilized to implement predictive maintenance strategies. By collecting and analyzing real-time sensor data from machines or equipment, the platform can identify patterns and anomalies to predict potential failures. This enables proactive maintenance, reducing downtime and improving operational efficiency.</p>
+                                  </div>
+                                </div>
+                          </div>
+
+                          <div class="carousel--item">
+                                <div class="card">
+                                  <img src="images/usecases/forecast.jpg" alt="Jane" style="width:100%; height:200px; object-fit: cover">
+                                  <div class="container">
+                                    <h5>Sales forecast</h5>
+                                    <p>A data and AI platform can be utilized to implement predictive maintenance strategies. By collecting and analyzing real-time sensor data from machines or equipment, the platform can identify patterns and anomalies to predict potential failures. This enables proactive maintenance, reducing downtime and improving operational efficiency.</p>
+                                  </div>
+                                </div>
+                          </div>
+                            
+                            <div tabindex="0" class="carousel--item one"></div>
+                            
+                            <div class="col-md-4 my-4">
+                                    <div class="px-3 py-5 text-white" style="background-color: #DE5935; transition: 0.3s ease; min-width: 300px;">
+                                        <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3">
+                                             <img src="./images/services/muscle.svg" height="60px" width="60px" alt="example" >
+                                        </div>
+                                        <div class="px-3 text-center pb-3">
+                                            <h5 class="text-uppercase animated-heading" style="font-weight: 600;">Consulting</h5>
+                                            <p class="font-weight-light my-3">We provide expert consulting services to help you navigate the complex world of AI and data. 
+                                                Our team of experts can help you understand your options, choose the right tools and technologies, and get the most out of your data and AI initiatives.</p>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            
+                            
+                            <div tabindex="0" class="carousel--item six">
+                                <div class="px-3 py-5 text-white" style="background-color: #DE5935; transition: 0.3s ease; min-width: 300px;">
+                                    <div class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3">
+                                         <img src="./images/services/muscle.svg" height="60px" width="60px" alt="example" >
+                                    </div>
+                                    <div class="px-3 text-center pb-3">
+                                        <h5>Consulting</h5>
+                                        <p class="font-weight-light my-3">We provide expert consulting services to help you navigate the complex world of AI and data. 
+                                            Our team of experts can help you understand your options, choose the right tools and technologies, and get the most out of your data and AI initiatives.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div tabindex="0" class="carousel--item seven">
+                                <img src="images/usecases/fraud.jpg" alt="Jane" style="width:100%; height: 200px; object-fit: cover;">
+                               <div class="px-3 text-center pb-3">
+                                   <h5>Consulting</h5>
+                                   <p class="font-weight-light my-3">We provide expert consulting services to help you navigate the complex world of AI and data. 
+                                       Our team of experts can help you understand your options, choose the right tools and technologies, and get the most out of your data and AI initiatives.</p>
+                               </div>
+                            </div>
+                          </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact-->
+            <section class="section-padding" id="contact">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-md-10 col-12 mx-auto">
+                            <div class="col-12">
+                                <h2 class="mb-5 text-center" style="color: black;">Drop a question</h2>
+                            </div>
+
+                            <form class="custom-form" role="form" action="" method="post">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                                        <label class="mb-2" for="name">Full Name</label>
+
+                                        <input type="text" name="name" id="name" class="form-control" required="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                                        <label class="mb-2" for="email">Email Address</label>
+                                        
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" required="">
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                                        <label class="mb-2" for="subject">How did you know about us?</label>
+
+                                        <select class="form-select form-control" name="subject" id="subject">
+                                            <option selected="">Choose a subject</option>
+                                            <option value="web+search">Website Searches</option>
+                                            <option value="social+media">Social Media</option>
+                                            <option value="others">Others</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12 my-2">
+                                        <label class="mb-2" for="message">Tell us about the project</label>
+
+                                        <textarea class="form-control" rows="5" id="message" name="message"></textarea>
+                                    
+                                        <button type="submit" class="form-control mt-4" id="submit">Submit</button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Kieboom Corp 2023</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <ul class="social-icon">
+
+                            <li><a href="https://twitter.com/search?q=tooplate" class="social-icon-link bi-twitter" style="color: antiquewhite;"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-linkedin" style="color: antiquewhite;"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none" style="color: antiquewhite;" href="#!">info@golambda.nl</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
