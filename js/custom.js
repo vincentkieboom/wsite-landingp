@@ -20,8 +20,8 @@
 
     // BACKSTRETCH SLIDESHOW
     $('#section_1').backstretch([
-      "images/slide/coffee.jpg", 
-      "images/slide/coffee.jpg"
+      "images/slide/coffee5.jpg",
+      "images/slide/coffee4.jpg"
     ],  {duration: 9000, fade: 750});
     
   })(window.jQuery);
