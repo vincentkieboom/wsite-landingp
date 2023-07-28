@@ -998,7 +998,7 @@ div.px-3.py-5.text-white:hover {
 /* carousel item should have min-width declared: */
   min-width: 360px;
 /* carousel item should have defined height: */
-  height: 540px;
+  height: 500px;
   
   border-radius: .4em;
   background-position: center;
@@ -1019,6 +1019,10 @@ div.px-3.py-5.text-white:hover {
   transform-origin: bottom;
   outline: 2px solid orange;
   outline-offset: 2px;
+}
+
+.card {
+  height: 470px;
 }
 
 .one {
