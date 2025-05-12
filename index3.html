@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Lambda</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link href="css/index2-styles.css" rel="stylesheet">
+
+        <!--
+        Tooplate 2128 Tween Agency
+        https://www.tooplate.com/view/2128-tween-agency
+        -->
+    </head>
+    
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <i class="bi-layers"></i> Lambda
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-5">
+                        <li class="nav-item"><a class="nav-link" href="#section_2">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section_3">Solutions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section_4">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+
+            <!-- Hero Section -->
+            <section class="hero d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-12">
+                            <div class="heroText" style="white-space: pre-line;">
+                                <h1 id="text" class="text-white mb-lg-5 mb-4">Let your data work for you</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="about section-padding" id="section_2" style="position: relative; z-index: 1;">
+                <canvas id="lineChartCanvasAbout" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></canvas>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 mb-lg-0 mb-4">
+                            <img src="images/graphic.png" class="img-fluid" alt="example">
+                        </div>
+                        <div class="col-lg-5 col-12 m-auto text-center">
+                            <h2 class="glitch">One platform to rule them all</h2>
+                            <p>Built for scalability and designed to unlock the full potential of data, Lambda is the ultimate solution for organizations seeking to conquer their data challenges.</p>
+                            <p>With its robust infrastructure and advanced capabilities, Lambda empowers businesses to harness the power of their data like never before.</p>
+                            <p>Seamlessly integrating diverse data sources, providing powerful analytics, and delivering actionable insights, Lambda truly rules the data landscape, enabling organizations to make informed decisions and drive unparalleled success.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Solutions Section -->
+            <section class="services section-padding" id="section_3">
+                <div class="container">
+                    <h2 class="mb-5 text-center">Our Solutions</h2>
+                    <div class="row">
+                        <div class="col-md-4 my-4">
+                            <a href="#">
+                                <div class="solution-card px-3 py-5 text-white" style="background-color: #F7CD46; transition: 0.3s ease">
+                                    <div class="circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3">
+                                        <img src="images/services/intelligence.svg" alt="AI Solutions" height="60px" width="60px">
+                                    </div>
+                                    <div class="text-center pb-3">
+                                        <h5 class="text-uppercase" style="font-weight: 600">AI SOLUTIONS</h5>
+                                        <p>We offer a wide range of AI solutions to help your business reach new levels of efficiency and performance.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 my-4">
+                            <a href="#">
+                                <div class="solution-card px-3 py-5 text-white" style="background-color: #5AC3B0; transition: 0.3s ease">
+                                    <div class="circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3">
+                                        <img src="images/services/layers2.svg" alt="Data & Analytics" height="60px" width="60px">
+                                    </div>
+                                    <div class="text-center pb-3">
+                                        <h5 class="text-uppercase" style="font-weight: 600">Data & Analytics</h5>
+                                        <p>Our platform helps you collect, process, and visualize your data in real-time.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 my-4">
+                            <a href="#">
+                                <div class="solution-card px-3 py-5 text-white" style="background-color: #DE5935; transition: 0.3s ease">
+                                    <div class="circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3">
+                                        <img src="images/services/muscle.svg" alt="Consulting" height="60px" width="60px">
+                                    </div>
+                                    <div class="text-center pb-3">
+                                        <h5 class="text-uppercase" style="font-weight: 600">Consulting</h5>
+                                        <p>We provide expert consulting services to help you navigate the complex world of AI and data.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Use Cases Section -->
+            <section class="section-padding" id="use-cases">
+                <div class="container">
+                    <h2 class="mb-5 text-center">Use Cases</h2>
+                    <div class="use-cases-carousel d-flex overflow-auto">
+                        <div class="card mx-2" style="min-width: 250px; max-width: 250px;">
+                            <img src="images/usecases/forecast.jpg" alt="Sales Forecast" class="card-img-top" style="height: 150px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Sales Forecast</h5>
+                                <p class="card-text">Generate accurate sales forecasts based on historical data and relevant factors.</p>
+                            </div>
+                        </div>
+                        <div class="card mx-2" style="min-width: 250px; max-width: 250px;">
+                            <img src="images/usecases/marketing.jpg" alt="Customer Satisfaction" class="card-img-top" style="height: 150px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Customer Satisfaction</h5>
+                                <p class="card-text">Analyze feedback, predict preferences, and personalize experiences to improve customer satisfaction.</p>
+                            </div>
+                        </div>
+                        <div class="card mx-2" style="min-width: 250px; max-width: 250px;">
+                            <img src="images/usecases/maintenance.jpg" alt="Predictive Maintenance" class="card-img-top" style="height: 150px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Predictive Maintenance</h5>
+                                <p class="card-text">Implement predictive maintenance strategies to reduce downtime and improve efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="card mx-2" style="min-width: 250px; max-width: 250px;">
+                            <img src="images/usecases/sentiment.jpg" alt="Sentiment Analysis" class="card-img-top" style="height: 150px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Sentiment Analysis</h5>
+                                <p class="card-text">Classify customer sentiment to gain insights into satisfaction and brand perception.</p>
+                            </div>
+                        </div>
+                        <div class="card mx-2" style="min-width: 250px; max-width: 250px;">
+                            <img src="images/usecases/supplychain.jpg" alt="Supply Chain Optimization" class="card-img-top" style="height: 150px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Supply Chain Optimization</h5>
+                                <p class="card-text">Optimize supply chain operations using real-time data and intelligent algorithms.</p>
+                            </div>
+                        </div>
+                        <div class="card mx-2" style="min-width: 250px; max-width: 250px;">
+                            <img src="images/usecases/fraud.jpg" alt="Fraud Detection" class="card-img-top" style="height: 150px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Fraud Detection</h5>
+                                <p class="card-text">Identify patterns and anomalies to predict and prevent fraudulent activities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="services section-padding" id="section_4">
+                <div class="container">
+                    <h2 class="mb-5 text-center">Drop a question</h2>
+                    <form class="custom-form" role="form" action="" method="post">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 my-2">
+                                <label for="name">Full Name</label>
+                                <input type="text" name="name" id="name" class="form-control" required>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 my-2">
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 my-2">
+                                <label for="subject">How did you know about us?</label>
+                                <select class="form-select form-control" name="subject" id="subject">
+                                    <option selected>Choose a subject</option>
+                                    <option value="web+search">Website Searches</option>
+                                    <option value="social+media">Social Media</option>
+                                    <option value="others">Others</option>
+                                </select>
+                            </div>
+                            <div class="col-12 my-2">
+                                <label for="message">Tell us about the project</label>
+                                <textarea class="form-control" rows="5" id="message" name="message"></textarea>
+                                <button type="submit" class="form-control mt-4">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">
+                        <a class="link-dark text-decoration-none" href="#">info@golambda.nl</a>
+                    </div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <ul class="social-icon">
+                            <li><a href="https://twitter.com/search?q=tooplate" class="social-icon-link bi-twitter"></a></li>
+                            <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        Copyright &copy; Kieboom Corp 2023
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScript Files -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            function setupCanvas(canvasId) {
+                const canvas = document.getElementById(canvasId);
+                const ctx = canvas.getContext('2d');
+                canvas.width = window.innerWidth;
+                canvas.height = canvas.parentElement.offsetHeight;
+                return { canvas, ctx };
+            }
+
+            function drawLineChart(ctx, lineData, x, maxPoints) {
+                ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+
+                // Draw line
+                ctx.beginPath();
+                ctx.moveTo(0, ctx.canvas.height / 2);
+                for (let i = 0; i < lineData.length; i++) {
+                    ctx.lineTo(i * (ctx.canvas.width / maxPoints), ctx.canvas.height / 2 - lineData[i]);
+                }
+                ctx.strokeStyle = 'rgba(0, 0, 0, 0.5)'; // Change line color to black
+                ctx.lineWidth = 2;
+                ctx.stroke();
+
+                // Draw moving dot
+                const dotX = x * (ctx.canvas.width / maxPoints);
+                const dotY = ctx.canvas.height / 2 - (lineData[x] || 0);
+                ctx.beginPath();
+                ctx.arc(dotX, dotY, 5, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.8)'; // Change dot color to black
+                ctx.fill();
+            }
+
+            function animateLine(canvasId) {
+                const { canvas, ctx } = setupCanvas(canvasId);
+                let x = 0;
+                const maxPoints = 200;
+
+                // Pre-populate lineData with initial sine wave values
+                const lineData = Array.from({ length: maxPoints }, (_, i) => Math.sin(i * 0.1) * 50);
+
+                function updateLineData() {
+                    if (lineData.length >= maxPoints) {
+                        lineData.shift();
+                    }
+                    lineData.push(Math.sin(x * 0.1) * 50); // Example sine wave data
+                    x = (x + 1) % maxPoints;
+                }
+
+                function animate() {
+                    updateLineData();
+                    drawLineChart(ctx, lineData, x, maxPoints);
+                    requestAnimationFrame(animate);
+                }
+
+                animate();
+            }
+
+            animateLine('lineChartCanvasAbout');
+        </script>
+
+    </body>
+</html>
