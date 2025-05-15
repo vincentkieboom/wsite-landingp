@@ -1063,8 +1063,8 @@ div.px-3.py-5.text-white:hover {
   border-radius: 50px;
   background: linear-gradient(-45deg, #F7CD46, #5AC3B0, #DE5935);
   background-size: 600%;
-  -webkit-animation: anime 16s linear infinite;
-          animation: anime 16s linear infinite;
+  -webkit-animation: anime 5s linear infinite;
+          animation: anime 5s linear infinite;
 }
 body .btn2 {
   position: absolute;
@@ -1093,5 +1093,14 @@ body .btn2 {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+.desktop-only {
+  display: block;
+}
+@media screen and (max-width: 991px) {
+  .desktop-only {
+    display: none !important;
   }
 }
